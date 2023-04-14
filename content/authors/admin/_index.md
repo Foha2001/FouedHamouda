@@ -43,6 +43,6 @@ superuser: true
 title: Foued Hamouda
 ---
 
-I'm the director of the Observatory of South-East Tunisians' companies and a member of the Technology Transfer Office at the University of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance. I received my PhD from the University of Tunis. 
+I'm the director of the Observatory of South-East Tunisians' companies and a member of the Technology Transfer Office (T.T.O) at the University of Gabès. I'am also the coordinator of the Master's in Financial Engineering Programs at the Higher Institute of management of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance. I received my PhD from the University of Tunis. 
 
 
