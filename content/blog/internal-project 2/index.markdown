@@ -18,47 +18,30 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-toc: true
+# output:
+#   blogdown::html_page:
+#     toc: true
 output:
   blogdown::html_page:
     toc: true
 ---
-
-<style type="text/css">
-
-p1 {
-  font-size: 12pt;
-  font-weight: bold;
-}
-
-
-h1 { /* Header 2 */
-    font-size: 32px;
-    color: DarkBlue;
-    font-weight: bold;
-}
-
-h2 { /* Header 1 */
-  font-size: 24px;
-  color: green;
-  font-weight: bold;
-}
-
-h3 { /* Header 2 */
-  font-size: 24px;
-  color: #9d3ae8;
-  font-weight: bold;
-}
-
-
-
-</style>
-
-## Material Building packages code
+# Material 1: Building packages code
 
 To build package use these commands:
-```{r}
+
+```r
  library(devtools)
+```
+
+```
+## Warning: le package 'devtools' a été compilé avec la version R 4.2.3
+```
+
+```
+## Le chargement a nécessité le package : usethis
+```
+
+```r
  library(usethis) 
 ```
 - usethis::use_r("nomdufichier") : to add R file and write function
@@ -74,13 +57,8 @@ To build package use these commands:
 - use_package("add any package you need") : add any package to import from to description file
 
 
-## build Normal distribution
+## build graphs
 
-```{r}
-x <- seq(-4,4, length=1000)
-hx <- dnorm(x,mean=0, sd=1)
-plot(x, hx, type="l", xlab = "valeur de x", ylab="density", main="loi normale")
-```
 
 
 

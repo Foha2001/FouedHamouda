@@ -18,20 +18,55 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+toc: true
 output:
-  html_document:
-    keep_md: true
+  blogdown::html_page:
     toc: true
-    
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#material-building-packages-code" id="toc-material-building-packages-code">Material Building packages code</a></li>
+<li><a href="#build-normal-distribution" id="toc-build-normal-distribution">build Normal distribution</a></li>
+</ul>
+</div>
 
-<div id="material-1-building-packages-code" class="section level1">
-<h1>Material 1: Building packages code</h1>
+<style type="text/css">
+
+p1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+
+h1 { /* Header 2 */
+    font-size: 32px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 1 */
+  font-size: 24px;
+  color: green;
+  font-weight: bold;
+}
+
+h3 { /* Header 2 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+
+
+
+</style>
+<div id="material-building-packages-code" class="section level2">
+<h2>Material Building packages code</h2>
 <p>To build package use these commands:</p>
 <pre class="r"><code> library(devtools)</code></pre>
-<pre><code>## Loading required package: usethis</code></pre>
+<pre><code>## Warning: le package &#39;devtools&#39; a été compilé avec la version R 4.2.3</code></pre>
+<pre><code>## Le chargement a nécessité le package : usethis</code></pre>
 <pre class="r"><code> library(usethis) </code></pre>
 <ul>
 <li>usethis::use_r(“nomdufichier”) : to add R file and write function</li>
@@ -46,4 +81,11 @@ output:
 <li>usethis::use_data(my data, compress=“xz”): to add data to my package</li>
 <li>use_package(“add any package you need”) : add any package to import from to description file</li>
 </ul>
+</div>
+<div id="build-normal-distribution" class="section level2">
+<h2>build Normal distribution</h2>
+<pre class="r"><code>x &lt;- seq(-4,4, length=1000)
+hx &lt;- dnorm(x,mean=0, sd=1)
+plot(x, hx, type=&quot;l&quot;, xlab = &quot;valeur de x&quot;, ylab=&quot;density&quot;, main=&quot;loi normale&quot;)</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
