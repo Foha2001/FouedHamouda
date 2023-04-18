@@ -82,6 +82,15 @@ hx <- dnorm(x,mean=0, sd=1)
 plot(x, hx, type="l", xlab = "valeur de x", ylab="density", main="loi normale")
 ```
 
+## function to create asymetric distribution
+```{r}
+fs = function(x,epsilon,delta) dnorm(sinh(delta*asinh(x)-epsilon))*delta*cosh(delta*asinh(x)-epsilon)/sqrt(1+x^2)
+vec = seq(-5,5,0.001)
+plot(vec,fs(vec,0,1),type="l")
+points(vec,fs(vec,-2,1.3),type="l",col="red")
+points(vec,fs(vec,1.3,1),type="l",col="blue")
+
+```
 
 
 
