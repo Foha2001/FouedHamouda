@@ -4,7 +4,7 @@ bio:
 education:
   courses:
   - course: PhD in Finance
-    institution: Higher Institute of Management of Tunis, Venice International University
+    institution: Higher Institute of Management of Tunis and Venice International University Isola Di San Servolo, Italy. 
     year: 
   
 email: ""
@@ -43,6 +43,8 @@ superuser: true
 title: Foued Hamouda
 ---
 
-I'm the director of the Observatory of South-East Tunisians' companies and a member of the Technology Transfer Office (T.T.O) at the University of Gabès. I'am also the coordinator of the Master's in Financial Engineering Programs at the Higher Institute of management of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance. I received my PhD from the University of Tunis. 
+I'm the director of the Observatory of South-East Tunisians' companies and a member of the Technology Transfer Office (T.T.O) at the University of Gabès.
+I joined the University of Tunis in 1998 and received my Doctoral degree in finance in 2010. I have fourteen years of full-time teaching experience. 
+I'am also the coordinator of the Master's in Financial Engineering Programs at the Higher Institute of management of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance.
 
 
