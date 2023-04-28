@@ -7,21 +7,41 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Material for my students Tunisianfirm package
+  name: My packages 
   url: https://github.com/Foha2001/tunisianfirms
 #slides: example
 summary: Package presentation.
 tags:
-- Deep Learning
-title: Tunisianfirms package
+title: My Packages
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+toc: true
+output:
+  blogdown::html_page:
+    toc: true
 ---
+<style type="text/css">
+h1 { /* Header 2 */
+    font-size: 32px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 1 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+</style>
+
+
+
+# 1- Tunisianfirms
 The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms
 
-Installation
+## Installation
 Coming soon You can install the released version of tunisianfirms from CRAN soon.
 However, you can install from github with these 
 
@@ -34,6 +54,7 @@ call the package with :
 ```{r}
 library(tunisianfirms)
 ```
+## Examples 
 basic example code
 
 ```{r}
@@ -48,6 +69,19 @@ To show a sample_example run
 ```{r}
 
 head(sample_data)
+```
+
+# 2- fdesc
+The goal of fdesc is to measure describtive statistics and export values into excel file in table format.
+
+## Installation
+You can install the development version of fdesc like so:
+```{r}
+library(devtools)
+```
+
+```{r}
+#devtools::install_github("Foha2001/fdesc")
 ```
 
 

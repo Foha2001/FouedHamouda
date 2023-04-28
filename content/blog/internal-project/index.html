@@ -7,26 +7,59 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Material for my students Tunisianfirm package
+  name: My packages 
   url: https://github.com/Foha2001/tunisianfirms
 #slides: example
 summary: Package presentation.
 tags:
-- Deep Learning
-title: Tunisianfirms package
+title: My Packages
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+toc: true
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#tunisianfirms" id="toc-tunisianfirms">1- Tunisianfirms</a>
+<ul>
+<li><a href="#installation" id="toc-installation">Installation</a></li>
+<li><a href="#examples" id="toc-examples">Examples</a></li>
+</ul></li>
+<li><a href="#fdesc" id="toc-fdesc">2- fdesc</a>
+<ul>
+<li><a href="#installation-1" id="toc-installation-1">Installation</a></li>
+</ul></li>
+</ul>
+</div>
 
+<style type="text/css">
+h1 { /* Header 2 */
+    font-size: 32px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 1 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+</style>
+<div id="tunisianfirms" class="section level1">
+<h1>1- Tunisianfirms</h1>
 <p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
-<p>Installation
-Coming soon You can install the released version of tunisianfirms from CRAN soon.
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>Coming soon You can install the released version of tunisianfirms from CRAN soon.
 However, you can install from github with these</p>
 <pre class="r"><code>library(devtools)</code></pre>
+<pre><code>## Warning: le package &#39;devtools&#39; a été compilé avec la version R 4.2.3</code></pre>
 <pre><code>## Le chargement a nécessité le package : usethis</code></pre>
 <pre class="r"><code>devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)</code></pre>
 <pre><code>## Skipping install of &#39;tunisianfirms&#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
@@ -34,6 +67,9 @@ However, you can install from github with these</p>
 <p>you have to install devtools before, when installing from github
 call the package with :</p>
 <pre class="r"><code>library(tunisianfirms)</code></pre>
+</div>
+<div id="examples" class="section level2">
+<h2>Examples</h2>
 <p>basic example code</p>
 <pre class="r"><code>cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
@@ -46,3 +82,15 @@ call the package with :</p>
 ## 4 2019-01-03 GIFDA4/23727 0.01
 ## 5 2019-01-03 GIFDA5/42931 0.01
 ## 6 2019-01-03  SAHDA1/1425 0.01</code></pre>
+</div>
+</div>
+<div id="fdesc" class="section level1">
+<h1>2- fdesc</h1>
+<p>The goal of fdesc is to measure describtive statistics and export values into excel file in table format.</p>
+<div id="installation-1" class="section level2">
+<h2>Installation</h2>
+<p>You can install the development version of fdesc like so:</p>
+<pre class="r"><code>library(devtools)</code></pre>
+<pre class="r"><code>#devtools::install_github(&quot;Foha2001/fdesc&quot;)</code></pre>
+</div>
+</div>
