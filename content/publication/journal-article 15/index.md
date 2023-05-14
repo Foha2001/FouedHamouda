@@ -25,7 +25,7 @@ tags:
 title: What can we learn about repurchase programs and systemic risk evidence from U S banks during financial turmoil
 #url_code: ""
 #url_dataset: 
-#url_pdf: 
+url_pdf: https://hstalks.com/article/7403/what-can-we-learn-about-repurchase-programmes-and-/?business&noaccess=1
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
