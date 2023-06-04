@@ -17,10 +17,12 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-toc: true
 output:
   blogdown::html_page:
-    toc: true
+  toc: true
+  toc_depth: 2
+  toc_float: true 
+  toc: true
 ---
 <style type="text/css">
 h1 { /* Header 2 */
