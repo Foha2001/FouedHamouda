@@ -19,8 +19,8 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*International Review of Economics & Finance,pre-proof*(1)'
-publication_short: "Pre-proof"
+publication: '*International Review of Economics & Finance,*(Pre-proof)'
+publication_short: ""
 publication_types:
 - "2"
 publishDate: "2023-06-13T00:00:00Z"
