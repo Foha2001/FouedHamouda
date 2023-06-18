@@ -19,7 +19,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*International Review of Economics & Finance,*(Pre-proof)'
+publication: '*International Review of Economics & Finance,*(corrected-proof)'
 publication_short: ""
 publication_types:
 - "2"
@@ -31,7 +31,7 @@ tags:
 title: Return and volatility spillovers among global assets Comparing health crisis with geopolitical crisis
 #url_code: ""
 #url_dataset: 
-url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S1059056023001764
+url_pdf: https://www.sciencedirect.com/science/article/pii/S1059056023001764?dgcid=coauthor
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
