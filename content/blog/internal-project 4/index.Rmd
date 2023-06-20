@@ -1,0 +1,34 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+
+#slides: example
+title: Videos tutorials
+summary: All videos tutorial
+toc: true
+output:
+  blogdown::html_page:
+    toc: true
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+---
+In this section, you'll find tutorial videos for the various courses taught at the University of Gabes. 
+
+# 1) My videos
+
+
+Under construction 
+
+
+
+
+# 2)  Other videos
+## The Garch model
+
+<iframe width="760" height="315" src="https://www.youtube.com/embed/anCMsvUbKlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
