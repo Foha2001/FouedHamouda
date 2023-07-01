@@ -11,7 +11,7 @@ authors:
 - Sitara Karim
 - Samuel A. Vigne
 #- Robert Ford
-date: "2023-11-01T00:00:00Z"
+date: "2023-09-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -19,7 +19,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*International Review of Economics & Finance,*(corrected-proof)'
+publication: '*International Review of Economics & Finance,87*'
 publication_short: ""
 publication_types:
 - "2"
