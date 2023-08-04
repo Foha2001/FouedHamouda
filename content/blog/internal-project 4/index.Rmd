@@ -26,9 +26,10 @@ Under construction
 
 
 # 2)  Other videos
+
 ## The Garch model
 
-<iframe width="760" height="315" src="https://www.youtube.com/embed/anCMsvUbKlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/anCMsvUbKlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## V-Lab (volatility)
 
@@ -37,4 +38,12 @@ Under construction
 ## Research in finance
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fio14ZJVucg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## What is Entropy ? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YtebGVx-Fxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 
