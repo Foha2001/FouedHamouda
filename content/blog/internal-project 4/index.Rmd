@@ -47,7 +47,9 @@ Under construction
 ## Gradient descent 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sDv4f4s2SB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Neural Network 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CqOfi41LfDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
