@@ -17,12 +17,7 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-output:
-  blogdown::html_page:
-  toc: true
-  toc_depth: 2
-  toc_float: true 
-  toc: true
+
 ---
 <style type="text/css">
 h1 { /* Header 2 */
@@ -86,17 +81,22 @@ library(devtools)
 #devtools::install_github("Foha2001/fdesc")
 ```
 
-## Example
+## Example 1
 
 ```{r}
 library(fdesc)
 ```
-To describe your database run this code \code{\link{desc}}
+To describe your database in raw data, run this code \code{\link{desc}}
 ```{r}
 mytable<- desc(data)
 mytable
 ```
-
+## Example 2
+To describe your database in log return data, run this code \code{\link{Rdesc}}
+```{r}
+mytable<- Rdesc(data)
+mytable
+```
 To export your Table to Excel format 
 
 ```{r}

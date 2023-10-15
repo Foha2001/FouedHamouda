@@ -17,27 +17,10 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-toc: true
-output:
-  blogdown::html_page:
-    toc: true
+
 ---
 
 
-<div id="TOC">
-<ul>
-<li><a href="#tunisianfirms" id="toc-tunisianfirms">1- Tunisianfirms</a>
-<ul>
-<li><a href="#installation" id="toc-installation">Installation</a></li>
-<li><a href="#examples" id="toc-examples">Examples</a></li>
-</ul></li>
-<li><a href="#fdesc" id="toc-fdesc">2- fdesc</a>
-<ul>
-<li><a href="#installation-1" id="toc-installation-1">Installation</a></li>
-<li><a href="#example" id="toc-example">Example</a></li>
-</ul></li>
-</ul>
-</div>
 
 <style type="text/css">
 h1 { /* Header 2 */
@@ -94,11 +77,25 @@ call the package with :</p>
 <pre class="r"><code>library(devtools)</code></pre>
 <pre class="r"><code>#devtools::install_github(&quot;Foha2001/fdesc&quot;)</code></pre>
 </div>
-<div id="example" class="section level2">
-<h2>Example</h2>
+<div id="example-1" class="section level2">
+<h2>Example 1</h2>
 <pre class="r"><code>library(fdesc)</code></pre>
-<p>To describe your database run this code </p>
+<p>To describe your database in raw data, run this code </p>
 <pre class="r"><code>mytable&lt;- desc(data)
+mytable</code></pre>
+<pre><code>##                       mean        sd   median       min      max        skew
+## GSPC.Close        3982.242 104.83348  3983.17  3783.220  4179.76 -0.02180676
+## X000001.SS.Close  3208.683  76.10007  3224.02  3045.866  3328.39 -0.46713210
+## N225.Close       27198.244 713.81456 27453.48 25716.859 28309.16 -0.49455138
+##                        kurt
+## GSPC.Close       -0.9946808
+## X000001.SS.Close -0.8228077
+## N225.Close       -1.0899745</code></pre>
+</div>
+<div id="example-2" class="section level2">
+<h2>Example 2</h2>
+<p>To describe your database in log return data, run this code </p>
+<pre class="r"><code>mytable&lt;- Rdesc(data)
 mytable</code></pre>
 <pre><code>##                           mean          sd        median         min        max
 ## GSPC.Close       -0.0002398655 0.011346004 -1.195375e-03 -0.02523748 0.02258384
