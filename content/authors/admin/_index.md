@@ -42,9 +42,35 @@ social:
 superuser: true
 title: Foued Hamouda
 ---
+<style type="text/css">
+
+h1 { /* Header 2 */
+    font-size: 15px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 2 */
+    font-size: 20 px;
+    color: RED;
+    font-weight: bold;
+}
+
+
+
+</style>
+
+
+
+
+
 
 I'm the director of the [Observatory of South-East Tunisians' companies](https://foha2001.github.io/observatoire/theme/index.html) and a member of the Technology Transfer Office (T.T.O) at the University of Gabès.
 I joined the University of Tunis in 1998 and received my Doctoral degree in finance in 2010. I have fourteen years of full-time teaching experience. 
 I'am also the coordinator of the Master's in Financial Engineering Programs at the Higher Institute of management of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance.
+
+## NEWS
+
+# You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
 
 
