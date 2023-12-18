@@ -17,15 +17,15 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 'I have a great experience in R programming and data science'
+- description: ''
   icon: r-project
   icon_pack: fab
-  name: R programming
-- description: 'I have some skills in web coding'
+  name: Programming
+- description: ''
   icon: html5
   icon_pack: fab
   name: Html, Python, CSS
-- description: 'I am an expert in finance'
+- description: ''
   icon: money-bill
   icon_pack: fas 
   name:  Finance
