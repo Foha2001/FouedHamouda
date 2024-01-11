@@ -17,7 +17,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Commodities Markets,33*'
+publication: '*Journal of Commodity Markets,33*'
 publication_short: ""
 publication_types:
 - "2"
