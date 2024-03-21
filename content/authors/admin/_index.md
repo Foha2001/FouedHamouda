@@ -71,6 +71,6 @@ I'am also the coordinator of the Master's in Financial Engineering Programs at t
 
 ## NEWS
 
-# You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
-
+# - You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
+# - Find out my Discord server [here](https://discord.gg/BrbKfjen) 
 
