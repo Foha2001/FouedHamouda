@@ -59,3 +59,7 @@ Under construction
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CcTCILi6Azc?si=y1d6y0o8O7M7TMUZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+## model construction
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cc4EeYIVZ44?si=VU2wkE7E4vjYP3_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
