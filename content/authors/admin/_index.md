@@ -4,14 +4,19 @@ bio:
 education:
   courses:
   - course: PhD in Finance
-    institution: Higher Institute of Management of Tunis and Venice International University Isola Di San Servolo, Italy. 
-    year: 
+    institution: Higher Institute of Management of Tunis. 
+    year: 2010
+    
+  - course: Master in entrepreneurship
+    institution: Venice International University Isola Di San Servolo, Italy. 
+    year: 2006
+    
   
 email: ""
 highlight_name: false
 interests:
 - Corporate finance
-- Financial Markets
+- Financial Markets   
 - Data Science
 - Programming languages
 - Risk Management
