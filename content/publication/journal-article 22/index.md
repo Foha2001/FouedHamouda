@@ -31,7 +31,7 @@ tags:
 title: Risk dynamics in energy transition Evaluating downside risks and interconnectedness in fossil fuel and renewable energy markets
 #url_code: ""
 #url_dataset: 
-url_pdf:
+url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S0301420724003994
 # url_poster: ""
 # url_project: ""
 # url_slides: ""
