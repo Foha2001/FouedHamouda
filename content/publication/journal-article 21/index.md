@@ -34,6 +34,6 @@ url_pdf: https://link.springer.com/article/10.1007/s10614-024-10573-w
 # url_project: ""
 # url_slides: ""
 # url_source: ""
-# url_video: ""
+url_video: https://typeset.io/videos/untitled-paper-p-1rbl27vxtb
 ---
 
