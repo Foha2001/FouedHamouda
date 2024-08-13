@@ -12,7 +12,7 @@ education:
     year: 2006
     
   
-email: ""
+email: "foued.hamouda@isg.rnu.tn"
 highlight_name: false
 interests:
 - Corporate finance
