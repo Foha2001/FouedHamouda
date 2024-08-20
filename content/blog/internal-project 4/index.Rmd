@@ -19,8 +19,81 @@ In this section, you'll find tutorial videos for the various courses taught at t
 
 # 1) My videos
 
+## calcul du taux de rendement du vendeur d'un call
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nEgyLsHnJyY?si=pYifymiJKAqpNxBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Under construction 
+##  calcul du taux de rendement de l'acheteur d'un call
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N4sdCB7d6LI?si=PgF2uoY8f78pV_d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Définition de la VaR
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D7-Bqx4o5ic?si=7Z4WyZxbGA6qQuy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Gain de l'acheteur d'un Call
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-iUKH_Uqmuk?si=BC2D4R2wqyRH_16J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Option Call: notion de profit
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YFi44o9Vaew?si=x1Sbj2X7FkJwTq4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Définition de l'option:  partie 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BPgh5QyITcE?si=DixBGCrHZLZS7Vuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Définition de l'option: partie 2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gid9GK0i4e4?si=B5g5QFnEnAeSEzr2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Gordon Shapiro
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3iOdeKkvuIM?si=71REu-hDXDPQS-dR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Le TRI
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R-wuFFN78iU?si=j36SKJrSF-isQM2N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Evaluation de taux d'actualisation avec la méthode de fisher
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/658suO_fjfc?si=wXqnpCejd2sbrcUi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Simulation historique a M titres de la VaR
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PZAVpb3mPxw?si=nN9wrZFx0NeFoytP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Simulation historique VaR 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5RcxvbmExwE?si=IHnpwAhptVmvzUu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Evaluation de la valeur finale dans ma méthode de Fisher
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b-ja4RyU98A?si=F0ZuquMInnPIkx4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Evaluation par la méthode de Fisher
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1WVJGg1QGTs?si=VGkcb4PDq7cgHEe3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Valeur Actuelle Nette (VAN) présentation 2/2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9SyJ67ThQA?si=Ymppm-deSad94vD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+##  Valeur Actuelle Nette (VAN) présentation 1/2
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m7aBNRLOQGE?si=eVckcwWEh01bgJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
