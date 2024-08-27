@@ -44,7 +44,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/foued-hamouda-4b717814/
-superuser: false
+superuser: true
 title: Foued Hamouda
 ---
 <style type="text/css">
@@ -72,7 +72,6 @@ h3 { /* Header 2 */
 </style>
 
 
-## Welcome to my website
 
 As the director of the [**Observatory of South-East Tunisian companies**](https://foha2001.github.io/observatoire/theme/index.html) and a member of the Technology Transfer Office at the University of Gabès, I have been part of the academic community since joining the University of Tunis in 1998. With a Doctoral degree in finance obtained in 2010, my career has spanned over fourteen years of full-time teaching. I also coordinate the Master's in Financial Engineering Programs at the Higher Institute of Management of Gabès. My research interests are diverse, encompassing financial markets, risk management, data science, and corporate finance. These fields are not only pivotal for the economic development of the region but also for the advancement of academic discourse in finance.
 
