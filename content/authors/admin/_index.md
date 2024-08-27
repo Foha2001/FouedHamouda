@@ -61,20 +61,24 @@ h2 { /* Header 2 */
     font-weight: bold;
 }
 
+h3 { /* Header 2 */
+    font-size: 15 px;
+    color: GREEN;
+    font-weight: bold;
+}
+
 
 
 </style>
 
 
+## Welcome to my website
+
+As the director of the [**Observatory of South-East Tunisian companies**](https://foha2001.github.io/observatoire/theme/index.html) and a member of the Technology Transfer Office at the University of Gabès, I have been part of the academic community since joining the University of Tunis in 1998. With a Doctoral degree in finance obtained in 2010, my career has spanned over fourteen years of full-time teaching. I also coordinate the Master's in Financial Engineering Programs at the Higher Institute of Management of Gabès. My research interests are diverse, encompassing financial markets, risk management, data science, and corporate finance. These fields are not only pivotal for the economic development of the region but also for the advancement of academic discourse in finance.
 
 
 
-
-I'm the director of the [**Observatory of South-East Tunisians' companies**](https://foha2001.github.io/observatoire/theme/index.html) and a member of the Technology Transfer Office (T.T.O) at the University of Gabès.
-I joined the University of Tunis in 1998 and received my Doctoral degree in finance in 2010. I have fourteen years of full-time teaching experience. 
-I'am also the coordinator of the Master's in Financial Engineering Programs at the Higher Institute of management of Gabès. My research interests include Financial markets, Risk management, data science and Corporate finance.
-
-## NEWS
+### NEWS
 
 # - You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
 # - Find out my Discord server [here](https://discord.gg/dHjudZ2V) 
