@@ -44,7 +44,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/foued-hamouda-4b717814/
-superuser: true
+superuser: false
 title: Foued Hamouda
 ---
 <style type="text/css">
@@ -56,14 +56,14 @@ h1 { /* Header 2 */
 }
 
 h2 { /* Header 2 */
-    font-size: 20 px;
-    color: RED;
+    font-size: 15 px;
+    color: GREY;
     font-weight: bold;
 }
 
 h3 { /* Header 2 */
-    font-size: 15 px;
-    color: GREEN;
+    font-size: 12 px;
+    color: RED;
     font-weight: bold;
 }
 
