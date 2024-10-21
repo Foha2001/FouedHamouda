@@ -80,6 +80,5 @@ As the director of the [**Observatory of South-East Tunisian companies**](https:
 ### NEWS
 
 # - You could find my last Book [here](https://foha2001.github.io/markups-kindle/)
-# - Find out my Discord server [here](https://discord.gg/dHjudZ2V) 
 # -  {{< icon name="download" pack="fas" >}} You could also download my APP {{< staticref "media/FouedHamouda_18085486.apk" "newtab" >}} Here
 
