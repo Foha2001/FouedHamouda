@@ -31,6 +31,8 @@ In this section, you will find my course lectures at the University of Gabès
 - [Course #2: Advanced methods to firm's evaluation ](https://foha2001.github.io/MAEE/)
 - [Course #3: Corporate finance ](https://foha2001.github.io/finance-d-entreprise/)
 - [Course #4: Financial engineering](https://foha2001.github.io/IF/)
+- [Course #5: Advanced Financial Theory ](https://sites.google.com/view/tfaisgg/accueil)
+
 
 All websites are in french language (the official leaning language at the university of Gabès)
 
