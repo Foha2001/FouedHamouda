@@ -7,7 +7,7 @@ education:
     institution: Higher Institute of Management of Tunis. 
     year: 2010
     
-  - course: Exchange program in entrepreneurship
+  - course: Exchange program
     institution: Venice International University Isola Di San Servolo, Italy. 
     year: 2006
     
