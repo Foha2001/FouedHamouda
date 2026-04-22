@@ -13,7 +13,7 @@ links:
 summary: Materials for my students.
 tags:
 - Deep Learning
-title: Risk Management blog 
+title: Some R codes 
 url_code: ""
 url_pdf: ""
 url_slides: ""
