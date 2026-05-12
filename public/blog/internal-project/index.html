@@ -338,7 +338,7 @@
   
   <meta property="og:site_name" content="" />
   <meta property="og:url" content="https://fouedhamouda.netlify.app/blog/internal-project/" />
-  <meta property="og:title" content="Tunisianfirms package | " />
+  <meta property="og:title" content="My Packages | " />
   <meta property="og:description" content="Package presentation." /><meta property="og:image" content="https://fouedhamouda.netlify.app/blog/internal-project/featured.jpg" />
     <meta property="twitter:image" content="https://fouedhamouda.netlify.app/blog/internal-project/featured.jpg" /><meta property="og:locale" content="en-us" />
   
@@ -365,7 +365,7 @@
 
 
 
-  <title>Tunisianfirms package | </title>
+  <title>My Packages | </title>
 </head>
 
 
@@ -686,7 +686,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Tunisianfirms package</h1>
+  <h1>My Packages</h1>
 
   
 
@@ -772,7 +772,7 @@
   
   <a class="btn btn-outline-primary btn-page-header" href="https://github.com/Foha2001/tunisianfirms" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
-    Material for my students Tunisianfirm package
+    My packages
   </a>
 
 
@@ -797,11 +797,28 @@
       
 
 
+<style type="text/css">
+h1 { /* Header 2 */
+    font-size: 32px;
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+h2 { /* Header 1 */
+  font-size: 24px;
+  color: #9d3ae8;
+  font-weight: bold;
+}
+</style>
+<div id="tunisianfirms" class="section level1">
+<h1>1- Tunisianfirms</h1>
 <p>The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms</p>
-<p>Installation
-Coming soon You can install the released version of tunisianfirms from CRAN soon.
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>Coming soon You can install the released version of tunisianfirms from CRAN soon.
 However, you can install from github with these</p>
 <pre class="r"><code>library(devtools)</code></pre>
+<pre><code>## Warning: le package &#39;devtools&#39; a été compilé avec la version R 4.2.3</code></pre>
 <pre><code>## Le chargement a nécessité le package : usethis</code></pre>
 <pre class="r"><code>devtools::install_github(&quot;Foha2001/tunisianfirms&quot;)</code></pre>
 <pre><code>## Skipping install of &#39;tunisianfirms&#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
@@ -809,6 +826,9 @@ However, you can install from github with these</p>
 <p>you have to install devtools before, when installing from github
 call the package with :</p>
 <pre class="r"><code>library(tunisianfirms)</code></pre>
+</div>
+<div id="examples" class="section level2">
+<h2>Examples</h2>
 <p>basic example code</p>
 <pre class="r"><code>cotation(&quot;ATTIJARIBANK&quot;)</code></pre>
 <p><img src="https://fouedhamouda.netlify.app/blog/internal-project/index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
@@ -821,6 +841,50 @@ call the package with :</p>
 ## 4 2019-01-03 GIFDA4/23727 0.01
 ## 5 2019-01-03 GIFDA5/42931 0.01
 ## 6 2019-01-03  SAHDA1/1425 0.01</code></pre>
+</div>
+</div>
+<div id="fdesc" class="section level1">
+<h1>2- fdesc</h1>
+<p>The goal of fdesc is to measure describtive statistics and export values into excel file in table format.</p>
+<div id="installation-1" class="section level2">
+<h2>Installation</h2>
+<p>You can install the development version of fdesc like so:</p>
+<pre class="r"><code>library(devtools)</code></pre>
+<pre class="r"><code>#devtools::install_github(&quot;Foha2001/fdesc&quot;)</code></pre>
+</div>
+<div id="example-1" class="section level2">
+<h2>Example 1</h2>
+<pre class="r"><code>library(fdesc)</code></pre>
+<p>To describe your database in raw data, run this code </p>
+<pre class="r"><code>mytable&lt;- desc(data)
+mytable</code></pre>
+<pre><code>##                       mean        sd   median       min      max        skew
+## GSPC.Close        3982.242 104.83348  3983.17  3783.220  4179.76 -0.02180676
+## X000001.SS.Close  3208.683  76.10007  3224.02  3045.866  3328.39 -0.46713210
+## N225.Close       27198.244 713.81456 27453.48 25716.859 28309.16 -0.49455138
+##                        kurt
+## GSPC.Close       -0.9946808
+## X000001.SS.Close -0.8228077
+## N225.Close       -1.0899745</code></pre>
+</div>
+<div id="example-2" class="section level2">
+<h2>Example 2</h2>
+<p>To describe your database in log return data, run this code </p>
+<pre class="r"><code>mytable&lt;- Rdesc(data)
+mytable</code></pre>
+<pre><code>##                           mean          sd        median         min        max
+## GSPC.Close       -0.0002398655 0.011346004 -1.195375e-03 -0.02523748 0.02258384
+## X000001.SS.Close -0.0004534132 0.006795638 -8.528099e-04 -0.01935933 0.01748493
+## N225.Close       -0.0008768654 0.009052766  3.181096e-05 -0.02489128 0.02465426
+##                         skew       kurt
+## GSPC.Close        0.05479284 -0.9396836
+## X000001.SS.Close  0.11974311  0.4084317
+## N225.Close       -0.10200599  0.5799189</code></pre>
+<p>To export your Table to Excel format</p>
+<pre class="r"><code>export(mytable)</code></pre>
+<p>You will find your Excel table with the name descstatistics.xlsx</p>
+</div>
+</div>
 
     </div>
 
@@ -830,12 +894,6 @@ call the package with :</p>
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
-  
-</div>
 
 
 
@@ -850,7 +908,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;text=Tunisianfirms%20package" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;text=My%20Packages" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -863,7 +921,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://fouedhamouda.netlify.app/blog/internal-project/&amp;t=Tunisianfirms%20package" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://fouedhamouda.netlify.app/blog/internal-project/&amp;t=My%20Packages" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -876,7 +934,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="mailto:?subject=Tunisianfirms%20package&amp;body=https://fouedhamouda.netlify.app/blog/internal-project/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=My%20Packages&amp;body=https://fouedhamouda.netlify.app/blog/internal-project/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -889,7 +947,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;title=Tunisianfirms%20package" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;title=My%20Packages" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -902,7 +960,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="whatsapp://send?text=Tunisianfirms%20package%20https://fouedhamouda.netlify.app/blog/internal-project/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=My%20Packages%20https://fouedhamouda.netlify.app/blog/internal-project/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -915,7 +973,7 @@ call the package with :</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;title=Tunisianfirms%20package" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://fouedhamouda.netlify.app/blog/internal-project/&amp;title=My%20Packages" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -948,7 +1006,7 @@ call the package with :</p>
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://fouedhamouda.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/author/foued-hamouda/avatar_hu6f414fc93c88a948419b3bff44012b38_4387_270x270_fill_q75_lanczos_center.jpg" alt="Foued Hamouda"></a>
+      <a href="https://fouedhamouda.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/author/foued-hamouda/avatar_hu88ccd9f06a750f85af7d8ac05a00e11e_1968312_270x270_fill_q75_lanczos_center.jpg" alt="Foued Hamouda"></a>
     
 
     <div class="media-body">
@@ -1190,7 +1248,7 @@ call the package with :</p>
     
 
     
-    <script src="/js/bootstrap.bundle.min.8b7df62fd2da18ce73e29c13cc0a6198.js"></script>
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
 
     
     

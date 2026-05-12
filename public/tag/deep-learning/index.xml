@@ -13,68 +13,26 @@
     </image>
     
     <item>
-      <title>Risk Management blog</title>
-      <link>https://fouedhamouda.netlify.app/blog/internal-project-2/</link>
+      <title>Lectures</title>
+      <link>https://fouedhamouda.netlify.app/blog/internal-project-3/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://fouedhamouda.netlify.app/blog/internal-project-2/</guid>
+      <guid>https://fouedhamouda.netlify.app/blog/internal-project-3/</guid>
       <description>
 
+&lt;div id=&#34;TOC&#34;&gt;
 
-&lt;div id=&#34;material-1-building-packages-code&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Material 1: Building packages code&lt;/h1&gt;
-&lt;p&gt;To build package use these commands:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt; library(devtools)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: usethis&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt; library(usethis) &lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;usethis::use_r(“nomdufichier”) : to add R file and write function&lt;/li&gt;
-&lt;li&gt;devtools::load_all() : to load all related functions to yours&lt;/li&gt;
-&lt;li&gt;devtools::install() : to install your package&lt;/li&gt;
-&lt;li&gt;devtools::document() : to document your package using roxygen&lt;/li&gt;
-&lt;li&gt;usethis::create_package() : to directly create package&lt;/li&gt;
-&lt;li&gt;usethis::use_git() : to use package version control vith github&lt;/li&gt;
-&lt;li&gt;devtools::load_all() : to load all source functions to be able to test package&lt;/li&gt;
-&lt;li&gt;devtools::check() : to check our package&lt;/li&gt;
-&lt;li&gt;use_data_raw() : create file to build data&lt;/li&gt;
-&lt;li&gt;usethis::use_data(my data, compress=“xz”): to add data to my package&lt;/li&gt;
-&lt;li&gt;use_package(“add any package you need”) : add any package to import from to description file&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tunisianfirms package</title>
-      <link>https://fouedhamouda.netlify.app/blog/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://fouedhamouda.netlify.app/blog/internal-project/</guid>
-      <description>
 
-
-&lt;p&gt;The goal of tunisianfirms is to spread cotation of Tunisian stock Exchange Firms&lt;/p&gt;
-&lt;p&gt;Installation
-Coming soon You can install the released version of tunisianfirms from CRAN soon.
-However, you can install from github with these&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(devtools)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Le chargement a nécessité le package : usethis&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;Foha2001/tunisianfirms&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Skipping install of &amp;#39;tunisianfirms&amp;#39; from a github remote, the SHA1 (397c5975) has not changed since last install.
-##   Use `force = TRUE` to force installation&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;you have to install devtools before, when installing from github
-call the package with :&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tunisianfirms)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;basic example code&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cotation(&amp;quot;ATTIJARIBANK&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://fouedhamouda.netlify.app/blog/internal-project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To show a sample_example run&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(sample_data)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##         date          lib prix
-## 1 2019-01-02 GIFDA5/42931 0.01
-## 2 2019-01-02 SOMCDA3/3725 0.01
-## 3 2019-01-02  TLSDS3/2021 0.01
-## 4 2019-01-03 GIFDA4/23727 0.01
-## 5 2019-01-03 GIFDA5/42931 0.01
-## 6 2019-01-03  SAHDA1/1425 0.01&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this section, you will find my course lectures at the University of Gabès&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/financeinternationale-website/&#34;&gt;Course #1: International Finance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/MAEE/&#34;&gt;Course #2: Advanced methods to firm’s evaluation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/finance-d-entreprise/&#34;&gt;Course #3: Corporate finance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://foha2001.github.io/IF/&#34;&gt;Course #4: Financial engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/tfaisgg/accueil&#34;&gt;Course #5: Advanced Financial Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/tfaisg/accueil&#34;&gt;Course #6: Financial Actuarial Techniques&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All websites are in french language (the official leaning language at the university of Gabès)&lt;/p&gt;
 </description>
     </item>
     

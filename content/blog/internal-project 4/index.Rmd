@@ -17,11 +17,9 @@ url_video: ""
 ---
 In this section, you'll find tutorial videos for the various courses taught at the University of Gabes. 
 
-# 1) My Videos
-Please visit my YouTube channel here : [Foha2001](https://www.youtube.com/@fouedhamouda7356) to find all my videos.
 
 
-# 2)  Selected videos
+#  Selected videos
 
 ## The Garch model
 
