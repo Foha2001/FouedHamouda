@@ -11,8 +11,8 @@ education:
     institution: Venice International University Isola Di San Servolo, Italy. 
     year: 2006
     
-  
-email: "foued.hamouda@isg.rnu.tn"
+
+email: "foued.hamouda@isggb.u-gabes.tn"
 highlight_name: false
 interests:
 - Corporate finance
